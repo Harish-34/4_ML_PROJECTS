@@ -3,9 +3,9 @@ import pickle
 import numpy as np
 
 #Load the pickle model
-# with open('linera_regression_model.pkl', 'rb') as file:
-#     model = pickle.load(file)
-model = pickle.load(open('linear_regression_model.pkl'))
+with open('linera_regression_model.pkl', 'rb') as file:
+    model = pickle.load(file)
+# model = pickle.load(open('linear_regression_model.pkl'))
 
 #set the title of streamlit app
 st.title("Salary Prediction App")
