@@ -3,7 +3,7 @@ import pickle
 import numpy as np
 
 #Load the pickle model
-with open(r'C:\Users\91837\DSPrakashSenapathi\4_ml\4_ml_projects\salary_rediction_slm_streamlit\linera_regression_model.pkl', 'rb') as file:
+with open(r'salary_rediction_slm_streamlit/linera_regression_model.pkl', 'rb') as file:
     model = pickle.load(file)
 # model = pickle.load(open(r'C:\Users\91837\DSPrakashSenapathi\4_ml\4_ml_projects\salary_rediction_slm_streamlit\linera_regression_model.pkl'))
 
